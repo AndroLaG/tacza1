@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/acceso.css">
+    <style>
+        .bg{
+            background-image: url(../img/fondo-navidad-redser.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-75 mt-5 rounded shadow">
+        <div class="row">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+               
+            </div>
+            <div class="col bg-white p-5 rounded-end">
+                <div class="text-end mt-5">
+                    <img src="../img/logo-png-redser.png" width="100" alt="">
+                </div>
+                <h2 class="fw-font text-center py-5">Bienvenidos</h2>
+
+                <!-- LOGIN -->
+                
+                    <div class="mb-4">
+                        <label for="text" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="usu">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="pass">
+                    </div>
+                    <div class="d-grid py-5">
+                        <button class="btn btn-danger" onclick="Acceso();">Iniciar Sesión</button>
+                    </div>
+                
+                    
+            </div>
+        </div>        
+    </div>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>    
+    <script src="../js/acceso.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
+    
+</body>
+</html>
